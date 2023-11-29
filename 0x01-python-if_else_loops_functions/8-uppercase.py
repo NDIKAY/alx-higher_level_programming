@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def uppercase(str):
-    input_str =""
+    input_str = ""
 
     for char in str:
         if 'a' <= char <= 'z':
@@ -9,4 +9,3 @@ def uppercase(str):
             input_str += "{}".format(char)
     print(input_str, end="")
     print()
-
