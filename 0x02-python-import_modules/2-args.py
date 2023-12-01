@@ -8,4 +8,4 @@ if __name__ == "__main__":
         '' if arglen == 1 else ':'
         ))
     for i in range(1, arglen):
-        print("{}:{}".format(i, argv[i]))
+        print("{}: {}".format(i, argv[i]))
