@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
-    tuple_mine =()
+    tuple_mine = ()
     if len(sentence) == 0:
         tuple_mine = 0, None
     else:
